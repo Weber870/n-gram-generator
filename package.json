@@ -1,0 +1,17 @@
+{
+  "name": "n-gram-generator",
+  "version": "0.1.0",
+  "description": "Extracts overlapping character or word sequences of a specified length from text for modeling and comparison.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {}
+}
