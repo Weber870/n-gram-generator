@@ -1,6 +1,6 @@
 {
   "name": "n-gram-generator",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Extracts overlapping character or word sequences of a specified length from text for modeling and comparison.",
   "type": "module",
   "main": "src/index.js",
