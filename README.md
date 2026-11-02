@@ -42,3 +42,10 @@ astral-plane characters.
 `n` must be a positive integer; `0`, negatives, and `2.5` throw `RangeError`.
 An input shorter than `n` returns `[]` rather than padding — the empty set is
 the honest answer when there is nothing to extract.
+
+## Performance
+
+The window keeps a bounded buffer, so `push` is constant time and memory does not
+grow with the length of the stream. `peak` and `trough` are linear in the window
+size, which is the trade that keeps `push` cheap.
+
